@@ -12,7 +12,7 @@ const Dashboard = () => {
         <p className="sub-text">What do you want to do today?</p>
       </Box>
       <Cards>
-        <Link to="cover-letter/create">
+        <Link to="/cover-letter/create">
           <Card>
             <img src={CoverLetter} alt="data" />
             <h1 className="text">Create a Cover Letter</h1>

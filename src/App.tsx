@@ -24,7 +24,7 @@ function App() {
             </Route>
           </Route>
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
+          {/* <Route path="/signup" element={<SignUp />} /> */}
           <Route path="*" element={<p>Path not resolved</p>} />
         </Routes>
       </Layout>

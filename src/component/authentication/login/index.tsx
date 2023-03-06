@@ -84,9 +84,9 @@ const Login = () => {
             <img src={Google} alt="retry" />
             Log in with Google
           </GoogleButton>
-          <Link to="/signup">
+          {/* <Link to="/signup">
             <LoginButton>Sign Up</LoginButton>
-          </Link>
+          </Link> */}
         </div>
       </ContentBox>
     </Wrapper>
